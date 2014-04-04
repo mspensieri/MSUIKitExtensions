@@ -68,7 +68,7 @@
     self.center = CGPointMake(self.center.x, CGRectGetMidY(view.frame));
 }
 
--(void)centerIn:(UIView*)view
+-(void)centerInView:(UIView*)view
 {
     self.center = CGPointMake(CGRectGetMidX(view.frame), CGRectGetMidY(view.frame));
 }

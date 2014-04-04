@@ -25,7 +25,7 @@
 -(void)centerHorizontallyWithView:(UIView*)view;
 -(void)centerVerticallyWithView:(UIView*)view;
 
--(void)centerIn:(UIView*)view;
+-(void)centerInView:(UIView*)view;
 
 -(void)anchorInsideTopOfView:(UIView*)view;
 -(void)anchorInsideTopOfView:(UIView*)view withPadding:(int)padding;
