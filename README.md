@@ -12,17 +12,17 @@ Convenience methods for:
 
 ###Example
 
-UIColor* color = [UIColor colorWithHex:0xff0000];
-
-NSLog(@"%f", color.red); // 1.0
-NSLog(@"%f", color.green); // 0.0
-NSLog(@"%f", color.blue); // 0.0
-
-color = [color colorWithGreen:0.5 blue:0.6];
-
-NSLog(@"%f", color.red); // 1.0
-NSLog(@"%f", color.green); // 0.5
-NSLog(@"%f", color.blue); // 0.6
+    UIColor* color = [UIColor colorWithHex:0xff0000];
+    
+    NSLog(@"%f", color.red); // 1.0
+    NSLog(@"%f", color.green); // 0.0
+    NSLog(@"%f", color.blue); // 0.0
+    
+    color = [color colorWithGreen:0.5 blue:0.6];
+    
+    NSLog(@"%f", color.red); // 1.0
+    NSLog(@"%f", color.green); // 0.5
+    NSLog(@"%f", color.blue); // 0.6
 
 UIViewExtensions
 ================
