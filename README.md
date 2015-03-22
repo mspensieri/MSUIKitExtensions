@@ -27,7 +27,7 @@ Convenience methods for:
 UIViewExtensions
 ================
 
-Simplifies working with UIViews in Objective-C
+Simplifies working with UIViews in Objective-C, for those who hate auto-layout
 
 ## UIView+Anchoring
 
